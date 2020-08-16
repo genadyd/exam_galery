@@ -1,0 +1,22 @@
+.gal_list_container{
+  margin-top: 30px;
+  color: #8a8a8a;
+
+  .one_galery{
+    border: solid 1px #bebebe;
+    border-radius: 4px;
+    .one_galery_header {
+      height: 40px;
+      .controls {
+        > div {
+          cursor: pointer;
+        }
+      }
+    }
+    .galery_body{
+      &.hidden{
+        display: none;
+      }
+    }
+  }
+}

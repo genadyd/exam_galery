@@ -1,0 +1,16 @@
+.modal-dialog {
+  width: 80vw;
+  max-width: 800px;
+  .images_container {
+    .one_image {
+      height: 100px;
+      &.selected{
+        border:solid 3px #135abe;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
